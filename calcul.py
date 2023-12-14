@@ -11,6 +11,8 @@ longueur = st.sidebar.number_input("La longueur du terrain en m", value=100)
 nbrCellule = st.sidebar.slider('Nombre total de cellules', min_value=1, max_value=20, value=11)
 alle = st.sidebar.slider('Nombre d\'allés ou colonnes', min_value=1, max_value=10, value=4)
 intervalle = st.sidebar.slider("Taille de chaque intervalle en decimetre", min_value=2, max_value=15, value=10, step=1)
+st.sidebar.text("Par TAPSOBA Abdoul Kader")
+st.sidebar.text("ktapsoba80@gmail.com")
 
 st.subheader("************ Recapitulatif *******************")
 st.text("Superficie du terrain : " +str(superficie) + " m2")
